@@ -31,16 +31,6 @@ theme = "adritian-free-hugo-theme"
   weight = 2
 
   [[menu.header]]
-  name = "Portfolio"
-  URL = "#portfolio"
-  weight = 3
-
-  [[menu.header]]
-  name = "Blog"
-  URL = "/blog"
-  weight = 4
-
-  [[menu.header]]
   name = "Contact"
   URL = "#contact"
   weight = 5
@@ -49,11 +39,6 @@ theme = "adritian-free-hugo-theme"
   name = "About"
   URL = "#about"
   weight = 2
-
-  [[menu.footer]]
-  name = "Portfolio"
-  URL = "#portfolio"
-  weight = 3
 
   [[menu.footer]]
   name = "Contact"
@@ -75,7 +60,7 @@ theme = "adritian-free-hugo-theme"
       enabled = false
 
   [params.footer]
-      copyright = "© Adritian. Free Hugo theme by Adrián Moreno Peña."
+      copyright = "© Aleksandr Teterkin. 2024."
       [params.footer.radity_logo]
         x = "img/general/design-and-code-radity.png"
         _2x = "img/general/design-and-code-radity@2x.png"
