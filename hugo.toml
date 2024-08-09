@@ -73,10 +73,6 @@ theme = "adritian-free-hugo-theme"
   [params.google_tag_manager]
       code = "GTM-XXXXX"
       enabled = false
-  
-  [params.logo]
-    text1 = "Cool"
-    text2 = "Name"
 
   [params.footer]
       copyright = "© Adritian. Free Hugo theme by Adrián Moreno Peña."
