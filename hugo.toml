@@ -1,4 +1,4 @@
-baseURL = "https://alekstet.github.io"
+baseURL = "https://www.adrianmoreno.info"
 languageCode = "en-us"
 theme = "adritian-free-hugo-theme"
 
@@ -30,10 +30,35 @@ theme = "adritian-free-hugo-theme"
   URL = "#about"
   weight = 2
 
+  [[menu.header]]
+  name = "Portfolio"
+  URL = "#portfolio"
+  weight = 3
+
+  [[menu.header]]
+  name = "Blog"
+  URL = "/blog"
+  weight = 4
+
+  [[menu.header]]
+  name = "Contact"
+  URL = "#contact"
+  weight = 5
+
   [[menu.footer]]
   name = "About"
   URL = "#about"
   weight = 2
+
+  [[menu.footer]]
+  name = "Portfolio"
+  URL = "#portfolio"
+  weight = 3
+
+  [[menu.footer]]
+  name = "Contact"
+  URL = "#contact"
+  weight = 4
 
 
 [params]
@@ -48,9 +73,13 @@ theme = "adritian-free-hugo-theme"
   [params.google_tag_manager]
       code = "GTM-XXXXX"
       enabled = false
+  
+  [params.logo]
+    text1 = "Cool"
+    text2 = "Name"
 
   [params.footer]
-      copyright = "© Aleksandr Teterkin. 2024"
+      copyright = "© Adritian. Free Hugo theme by Adrián Moreno Peña."
       [params.footer.radity_logo]
         x = "img/general/design-and-code-radity.png"
         _2x = "img/general/design-and-code-radity@2x.png"
