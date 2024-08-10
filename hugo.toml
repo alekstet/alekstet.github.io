@@ -59,6 +59,10 @@ theme = "adritian-free-hugo-theme"
       code = "GTM-XXXXX"
       enabled = false
 
+    [params.logo]
+    text1 = "Aleksandr"
+    text2 = "Teterkin"
+
   [params.footer]
       copyright = "© Aleksandr Teterkin. 2024."
       [params.footer.radity_logo]
